@@ -1,0 +1,17 @@
+
+
+.banner{
+    background: rgba(255, 110, 0, 0.85);
+    text-align: left;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    z-index: 10;
+
+}
+.banner img{
+    max-width: 100%;
+    padding-left: 100px;
+    
+}
