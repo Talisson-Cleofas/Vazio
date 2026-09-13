@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+<title id="title">TC — Talisson Cleofas</title><desc id="desc">Monograma TC em branco e verde para automação inteligente</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08e3b4"/><stop offset="1" stop-color="#1fbf8e"/></linearGradient></defs>
+<rect width="220" height="220" rx="52" fill="#0a0f14"/>
+<path d="M42 55h82l18 24h-35v87l-25-19V79H59z" fill="#f5f7f8"/>
+<path d="M124 55h48l22 28h-29l-10-13h-22z" fill="url(#g)"/>
+<path d="M126 78h28v58h41l-20 29h-31l-18-19z" fill="url(#g)"/>
+</svg>
