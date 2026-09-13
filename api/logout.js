@@ -1,0 +1,1 @@
+module.exports=(req,res)=>{res.setHeader("Cache-Control","no-store");if(req.method!=="POST")return res.status(405).end();res.setHeader("Set-Cookie","tc_session=; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=0");res.statusCode=302;res.setHeader("Location","/");res.end()};
