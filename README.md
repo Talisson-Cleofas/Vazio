@@ -1,16 +1,19 @@
 # Calculadora de Impacto da Automação
 
-Calculadora comercial para precificação de serviços de automação por valor.
+Aplicação privada para precificação de serviços de automação por valor.
 
-## Recursos
-- Cálculo por aumento de faturamento
-- Cálculo por economia operacional
-- Mensalidade sugerida
-- Valor de implementação
-- ROI estimado do cliente
-- Resumo automático para proposta
+## Segurança
+- Login validado no servidor
+- Senha nunca fica no JavaScript do navegador
+- Sessão assinada em cookie HttpOnly, Secure e SameSite=Strict
+- Sessão expira em 8 horas
+- Bloqueio básico após tentativas inválidas
+- CSP, HSTS, anti-frame, no-sniff e política de permissões
+- Conteúdo protegido com no-store
+- robots.txt bloqueia indexação
 
-## Deploy
-Produção: https://calculadora-automacao-talisson-lo4k65cb4.vercel.app
+## Variáveis obrigatórias no Vercel
+- `ADMIN_PASSWORD_HASH`: SHA-256 da senha de acesso
+- `SESSION_SECRET`: segredo aleatório de no mínimo 32 bytes
 
-Os resultados são estimativas comerciais e não garantias de resultado.
+Nunca publique a senha ou o SESSION_SECRET no GitHub.
